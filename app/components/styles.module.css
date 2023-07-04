@@ -1,0 +1,7 @@
+.shadow {
+  -webkit-box-shadow: -12px -15px 0px -1px rgba(238,240,206,0.3);
+  -moz-box-shadow: -12px -15px 0px -1px rgba(238,240,206,0.3);
+  box-shadow: -12px -15px 0px -1px rgba(238,240,206,0.3);
+  height: 100%;
+  border-radius: 2%;
+}
