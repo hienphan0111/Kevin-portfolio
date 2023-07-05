@@ -11,13 +11,12 @@ import styles from './styles.module.css';
 
 const Hero = () => {
   return (
-    <div className={styles.shadow}>
-      <div className='h-100% rounded-xl'>
-        <div className='-z-20 relative w-auto h-[50%]'>
-          <Image src={bg1} className='-z-20' />
-          {/* <div className='w-full bg-zinc-700 absolute'/> */}
+    <div className={`${styles.shadow} flex flex-col`}>
+      <div className='rounded-xl flex flex-col shadow-2xl h-full'>
+        <div className='-z-10 relative h-[450px]'>
+          <Image src={bg1} className='h-full object-cover' alt='hero-img' />
         </div>
-        <div className='w-100 h-auto text-white bg-zinc-800 flex flex-col items-center rounded-t-[40%] -mt-20'>
+        <div className='w-100 h-full text-white bg-zinc-800 flex flex-col items-center rounded-t-[25%] -mt-20'>
           <div className='-mt-20 z-20'>
             <Image
               src={heroImg}
@@ -38,7 +37,7 @@ const Hero = () => {
               <AiOutlineWhatsApp />
             </Link>
           </div>
-          <div className='h-40'/>
+          <div className='h-20'/>
         </div>
       </div>
     </div>
