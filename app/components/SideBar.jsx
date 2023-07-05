@@ -5,7 +5,7 @@ import { FaRegUser, FaRegListAlt, FaEye, FaRegPaperPlane } from 'react-icons/fa'
 const SideBar = () => {
   return (
     <div className='p-3 flex flex-col gap-3'>
-      <div className='flex items-center justify-center p-1 bg-zinc-700 w-16 h-16'>
+      <div className='flex items-center justify-center bg-zinc-700 w-16 h-16'>
         <BsSun className='text-white text-3xl'/>
       </div>
       <div className='bg-zinc-700 p-1 flex flex-col divide-y-[0.5px] divide-slate-50 uppercase text-xs'>

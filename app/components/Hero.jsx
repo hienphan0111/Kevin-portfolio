@@ -14,10 +14,7 @@ const Hero = () => {
     <div className={styles.shadow}>
       <div className='h-100% rounded-xl'>
         <div className='-z-20 relative w-auto h-[50%]'>
-          <Image
-            src={bg1}
-            className='-z-20'
-          />
+          <Image src={bg1} className='-z-20' />
           {/* <div className='w-full bg-zinc-700 absolute'/> */}
         </div>
         <div className='w-100 h-auto text-white bg-zinc-800 flex flex-col items-center rounded-t-[40%] -mt-20'>
@@ -28,9 +25,9 @@ const Hero = () => {
               className='rounded-full w-[150px] h-[150px] '
             />
           </div>
-          <h1 className='font-bold text-4xl'>Kevin Phan</h1>
+          <h1 className='font-bold text-4xl py-2'>Kevin Phan</h1>
           <p>Full stack developer</p>
-          <div className='flex gap-4 rounded-t-2xl'>
+          <div className='flex gap-4 rounded-t-2xl pt-3'>
             <Link href='/'>
               <AiOutlineGithub />
             </Link>
@@ -41,6 +38,7 @@ const Hero = () => {
               <AiOutlineWhatsApp />
             </Link>
           </div>
+          <div className='h-40'/>
         </div>
       </div>
     </div>
