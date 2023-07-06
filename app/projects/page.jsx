@@ -21,7 +21,7 @@ const Project = () => {
         <div className="w-8 h-8 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-50 absolute top-6 left-2 opacity-60"></div>
       </div>
       <div className="relative border-gradient-y grid grid-cols-2 gap-4 py-10 px-7 text-gray-300 bg-zinc-800">
-        <div className='absolute h-full left-[50%] border-gradient-b' />
+        <div className='absolute h-full left-[50%] border-gradient-r' />
         {
           projects.map((pro) => (
             <div key={pro.id} className='flex flex-col items-center gap-2'>

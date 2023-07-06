@@ -36,5 +36,4 @@
 .cursorChange:hover {
   cursor: url('../assets//circle.svg'), pointer;
   color: rgb(221, 190, 54);
-  font-size: 20px;
 }

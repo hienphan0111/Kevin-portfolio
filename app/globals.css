@@ -172,19 +172,25 @@ body {
 .border-gradient-r {
   border-right: solid 1px;
   border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, rgba(255, 255, 255, 0.486), #222);
+}
+
+.border-gradient-t {
+  border-top: solid 1px;
+  border-image-slice: 1;
   border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0.486), #222);
 }
 
 .border-gradient {
-  border-right: solid 1px;
+  border: solid 1px;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0.486), #222);
 }
 
 .border-gradient-b {
-  border-right: solid 1px;
+  border-bottom: solid 1px;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to bottom, rgba(255, 255, 255, 0.486), #222);
+  border-image-source: linear-gradient(to to right, rgba(255, 255, 255, 0.486), #222);
 }
 
 .img-project:hover {
