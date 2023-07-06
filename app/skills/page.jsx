@@ -15,7 +15,7 @@ const Skill = () => {
   return (
     <div className='w-full h-full bg-zinc-800'>
       <div className='relative'>
-        <h1 className='font-bold text-xl p-7'>
+        <h1 className='font-bold text-xl p-7 text-gray-100'>
           <span className='text-yellow-500'>S</span>kills
         </h1>
         <div className='w-8 h-8 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-50 absolute top-6 left-2 opacity-60'></div>

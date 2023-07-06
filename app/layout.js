@@ -12,10 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className="flex min-h-screen flex-col py-10 items-center justify-center p-24">
+      <body suppressHydrationWarning={true} className="flex min-h-screen flex-col sm:py-0 md:py-10 items-center justify-center p-24 md:overflow-hidden bg-slate-500">
         <BackgroundAnimation />
-        <div className='relative flex max-h-[780px]'>
-          <div className='w-[70%] h-full flex flex-col'>
+        <div className='relative flex flex-col lg:flex-row max-h-[680px]'>
+          <div className='w-[100%] md:w-[70%] h-full flex flex-col'>
             <Hero />
           </div>
           <div className='absolute top-0 -left-20'>
