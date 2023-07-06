@@ -13,7 +13,7 @@ import { SiRuby, SiNextdotjs, SiNodedotjs, SiRubyonrails } from 'react-icons/si'
 
 const Skill = () => {
   return (
-    <div className='w-full h-full bg-zinc-800'>
+    <div className='w-full h-full bg-zinc-800 pb-5'>
       <div className='relative'>
         <h1 className='font-bold text-xl p-7 text-gray-100'>
           <span className='text-yellow-500'>S</span>kills

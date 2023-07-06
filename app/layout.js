@@ -15,16 +15,16 @@ export default function RootLayout({ children }) {
       <head>
         <link rel='icon' href='/favicon.ico'/>
       </head>
-      <body suppressHydrationWarning={true} className="flex min-h-screen flex-col sm:py-0 md:py-10 items-center justify-center p-24 md:overflow-hidden bg-slate-500">
+      <body suppressHydrationWarning={true} className="flex min-h-screen flex-col sm:py-0 md:py-10 items-center md:justify-center sm:p-1 md:p-24 md:overflow-hidden bg-slate-500">
         <BackgroundAnimation />
-        <div className='sm:static md:relative flex flex-col lg:flex-row max-h-[680px]'>
+        <div className='relative w-full md:flex sm:flex-col md:flex-row max-h-[680px]'>
+          <div className='sm:fixed md:absolute sm:left-0 top-0 md:-left-20'>
+            <SideBar />
+          </div>
           <div className='w-[100%] md:w-[70%] h-full flex flex-col'>
             <Hero />
           </div>
-          <div className='absolute top-0 md:-left-20'>
-            <SideBar />
-          </div>
-          <div className='w-[60%] my-5 max-h-[600px] h-[600px] overflow-y-auto'>
+          <div className='md:w-[60%] sm:m-0 md:my-5 h-auto md:max-h-[600px] md:h-[600px] overflow-y-auto'>
             {children}
           </div>
         </div>
