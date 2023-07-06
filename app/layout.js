@@ -12,7 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className="flex min-h-screen flex-col sm:py-0 md:py-10 items-center md:justify-center sm:p-1 md:p-24 md:overflow-hidden bg-slate-500">
+      <head>
+        <link rel='icon' href='/favicon.ico'/>
+      </head>
+      <body suppressHydrationWarning={true} className="flex min-h-screen flex-col sm:py-0 md:py-10 items-center justify-center p-24 md:overflow-hidden bg-slate-500">
         <BackgroundAnimation />
         <div className='sm:static md:relative flex flex-col lg:flex-row max-h-[680px]'>
           <div className='w-[100%] md:w-[70%] h-full flex flex-col'>

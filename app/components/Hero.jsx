@@ -7,6 +7,7 @@ import {
   AiFillLinkedin,
   AiOutlineWhatsApp,
 } from 'react-icons/ai';
+import { BiPaperPlane, BiCloudDownload } from 'react-icons/bi';
 import bg1 from '../assets/bg1.jpg';
 import heroImg from '../assets/hero.jpg';
 import styles from './styles.module.css';
@@ -44,6 +45,16 @@ const Hero = () => {
             </Link>
           </div>
           <div className='h-20' />
+          <div className='grid grid-cols-2 w-full border-gradient-t'>
+            <div className='flex gap-2 items-center justify-center py-4 border border-gradient-r cursor-pointer hover:bg-yellow-500'>
+              <Link href="https://drive.google.com/file/d/1sbXi4p-1YGXxDabV6UjRL0UKKcqqem2O/view?usp=sharing">Download CV</Link>
+              <BiCloudDownload />
+            </div>
+            <div className='flex gap-2 items-center justify-center cursor-pointer hover:bg-yellow-500'>
+              <Link href='/contact'>Contact me </Link>
+              <BiPaperPlane />
+            </div>
+          </div>
         </div>
       </div>
     </div>
