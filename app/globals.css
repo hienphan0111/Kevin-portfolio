@@ -242,3 +242,7 @@ body {
     opacity: 0;
   }
 }
+
+.circle-cursor {
+  cursor: url(./assets/circle-50.png), auto;
+}
