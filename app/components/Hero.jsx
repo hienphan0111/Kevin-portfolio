@@ -48,7 +48,7 @@ const Hero = () => {
           <div className='h-20' />
           <div className='grid grid-cols-2 w-full border-gradient-t'>
             <div className='flex gap-2 items-center justify-center py-4 border border-gradient-r cursor-pointer hover:bg-yellow-500'>
-              <Link href="https://drive.google.com/file/d/17h_-Whrgh_jE17y39ZzsBEA2sqG3s52a/view?usp=sharing">Download CV</Link>
+              <Link href="https://drive.google.com/file/d/17otHkiI1MZK591fjU2YfNvSvg2VMRnGN/view?usp=sharing">Download CV</Link>
               <BiCloudDownload />
             </div>
             <div className='flex gap-2 items-center justify-center cursor-pointer hover:bg-yellow-500'>
